@@ -17,7 +17,7 @@ div {
   font-size: 1.125rem;
   color: #fff;
   display: inline-block;
-  padding: .3em .75em;
+  padding: .4em .75em .3em;
   background-color: #333;
   border: 3px solid #333;
   border-radius: 8px;
@@ -25,47 +25,32 @@ div {
 
 .btn:hover {
   background-color: #000;
-  border: 3px solid #000;
 }
 
 .btn-subtle {
-  font-size: 1.125rem;
-  color: #fff;
   background-color: #ccc;
-  border: 3px solid #ccc;
+  border-color: #ccc;
 }
 
 .btn-subtle:hover {
   background-color: #666;
-  border: 3px solid #666;
 }
 
 .btn-ghost {
-  text-decoration: none;
-  font-size: 1.125rem;
-  color: #000;
-  display: inline-block;
-  padding: .3em .75em;
+  color: #333;
   background-color: #fff;
-  border: 3px solid #333;
-  border-radius: 8px;
+  border-color: #333;
 }
 
 .btn-ghost:hover {
+  color: #fff;
   background-color: #666;
   border: 3px solid #666;
-  color: #fff;
 }
 
 .btn-warning {
-  text-decoration: none;
-  font-size: 1.125rem;
-  color: #fff;
-  display: inline-block;
-  padding: .3em .75em;
   background-color: #f33;
-  border: 3px solid #f33;
-  border-radius: 8px;
+  border-color: #f33;
 }
 
 .btn-warning:hover {
@@ -75,10 +60,8 @@ div {
 
 .btn-small {
   font-size: .875rem;
-  padding: .4em .75em;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  padding: .3em .75em;
 }
